@@ -64,7 +64,7 @@ Pastikan `redirect_uri` di client sama persis dengan yang tersimpan di SSO (term
 
 1) Pengguna sudah login di SSO dan melihat daftar aplikasi yang dapat diakses.
 2) Pengguna klik ikon aplikasi. Dashboard SSO akan diarahkan ke url login sso sistem client, contoh `https://simutu.unugiri.ac.id/girione/auth`.
-3) 
+3) sistem client akan otomatis menjalankan `Client-Initiated Login`
 ## 5. Skenario B – Client-Initiated Login (Klik tombol di Client)
 
 1) Client membuat `state` acak (wajib disimpan sementara di session/cookie) dan opsional `nonce`.
